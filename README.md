@@ -54,12 +54,14 @@ Welcome to the **Singularity Finance Testnet**! 🚀 Follow the instructions bel
    ```
 
 3. Configure your accounts:
-   ```bash
+ ```bash
+   cp accounts/tmp_accounts.js accounts/accounts.js
    nano accounts/accounts.js
    ```
 
 4. Configure the bot settings:
    ```bash
+   cp config/config_tmp.js config/config.js
    nano config/config.js
    ```
 
