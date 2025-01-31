@@ -54,8 +54,8 @@ Welcome to the **Singularity Finance Testnet**! 🚀 Follow the instructions bel
    ```
 
 3. Configure your accounts:
- ```bash
-   cp accounts/tmp_accounts.js accounts/accounts.js
+    ```bash
+   cp accounts/accounts_tmp.js accounts/accounts.js
    nano accounts/accounts.js
    ```
 
