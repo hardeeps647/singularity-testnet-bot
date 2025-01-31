@@ -1,0 +1,39 @@
+{
+  "name": "singularity-bot.git",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Singularity Testnet Bot",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node start.js",
+    "dev": "node index.js",
+    "test": "node test.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+  },
+  "keywords": [
+    "singularity-bot",
+    "singularity-testnet-bot",
+    "evm-bot",
+    "widiskel"
+  ],
+  "author": "Widiskel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widiskel/singularity-bot.git.git"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "^6.13.2",
+    "input": "^1.0.1",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "solc": "^0.8.28",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0",
+    "https-proxy-agent": "^7.0.5"
+  }
+}
